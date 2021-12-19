@@ -8,7 +8,7 @@
 #include <iostream>
 
 #define AGENT_WRK_GRP_SIZE 8
-#define NUM_AGENTS AGENT_WRK_GRP_SIZE * 2048
+#define NUM_AGENTS AGENT_WRK_GRP_SIZE * 10000
 
 struct Agent {
     float x, y, heading;
@@ -138,8 +138,8 @@ int main() {
 
     // Create texture for the trail map which will eventually be rendered to screen
     GLuint trailMap;
-    int trailMapWidth = 1500;
-    int trailMapHeight = 1500;
+    int trailMapWidth = 2048;
+    int trailMapHeight = 2048;
     glGenTextures(1, &trailMap);
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D, trailMap);
