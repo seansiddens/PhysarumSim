@@ -12,3 +12,9 @@ Uses OpenGL compute shaders to update the positions of agents every time step.
 
 Simulation parameters such as texture resolution, sensor angle, sensor distance, decay speed, etc.
 can be modiefied using the ImGui window. 
+
+## Examples
+
+![slimy-gif](https://user-images.githubusercontent.com/11508260/194922974-f143b03a-6204-45b5-9a04-f73fdc884bec.gif)
+![slimy1](https://user-images.githubusercontent.com/11508260/194921409-b586ff44-a5c4-4174-9de3-2ea480aa3dfe.png)
+ ![slimy2](https://user-images.githubusercontent.com/11508260/194921386-fb35622e-38f7-4845-a432-63269ae84ec4.png)
